@@ -1,0 +1,89 @@
+2023-10-03T09:57:51+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "laviedesplantes.local" is on a private network. Jetpack can only connect to public sites. in /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php:187
+Stack trace:
+#0 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(212): WC_Payments_Http->start_connection('http://laviedes...')
+#1 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(1779): WC_Payments_API_Client->start_server_connection('http://laviedes...')
+#2 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(888): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(310): WC_Payments_Account->maybe_handle_onboarding('')
+#4 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#7 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/index.php(10): require_once('/Users/emma1/Lo...')
+#8 {main}
+  thrown in /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php on line 187
+
+2023-10-03T09:58:38+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "laviedesplantes.local" is on a private network. Jetpack can only connect to public sites. in /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php:187
+Stack trace:
+#0 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(212): WC_Payments_Http->start_connection('http://laviedes...')
+#1 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(1779): WC_Payments_API_Client->start_server_connection('http://laviedes...')
+#2 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(888): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(310): WC_Payments_Account->maybe_handle_onboarding('')
+#4 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#7 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/index.php(10): require_once('/Users/emma1/Lo...')
+#8 {main}
+  thrown in /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php on line 187
+
+2023-10-03T10:07:18+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "laviedesplantes.local" is on a private network. Jetpack can only connect to public sites. in /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php:187
+Stack trace:
+#0 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(212): WC_Payments_Http->start_connection('http://laviedes...')
+#1 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(1779): WC_Payments_API_Client->start_server_connection('http://laviedes...')
+#2 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(888): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(310): WC_Payments_Account->maybe_handle_onboarding('')
+#4 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#7 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/index.php(10): require_once('/Users/emma1/Lo...')
+#8 {main}
+  thrown in /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php on line 187
+
+2023-10-03T10:07:27+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "laviedesplantes.local" is on a private network. Jetpack can only connect to public sites. in /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php:187
+Stack trace:
+#0 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(212): WC_Payments_Http->start_connection('http://laviedes...')
+#1 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(1779): WC_Payments_API_Client->start_server_connection('http://laviedes...')
+#2 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(888): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(310): WC_Payments_Account->maybe_handle_onboarding('')
+#4 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#7 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/index.php(10): require_once('/Users/emma1/Lo...')
+#8 {main}
+  thrown in /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php on line 187
+
+2023-10-03T10:11:23+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "laviedesplantes.local" is on a private network. Jetpack can only connect to public sites. in /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php:187
+Stack trace:
+#0 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(212): WC_Payments_Http->start_connection('http://laviedes...')
+#1 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(1779): WC_Payments_API_Client->start_server_connection('http://laviedes...')
+#2 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(888): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(310): WC_Payments_Account->maybe_handle_onboarding('')
+#4 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#7 {main}
+  thrown dans /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php à la ligne 187
+
+2023-10-03T11:59:54+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "laviedesplantes.local" is on a private network. Jetpack can only connect to public sites. in /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php:187
+Stack trace:
+#0 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(212): WC_Payments_Http->start_connection('http://laviedes...')
+#1 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(1779): WC_Payments_API_Client->start_server_connection('http://laviedes...')
+#2 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(888): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(310): WC_Payments_Account->maybe_handle_onboarding('')
+#4 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#7 {main}
+  thrown dans /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php à la ligne 187
+
+2023-10-03T12:00:26+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "laviedesplantes.local" is on a private network. Jetpack can only connect to public sites. in /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php:187
+Stack trace:
+#0 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(212): WC_Payments_Http->start_connection('http://laviedes...')
+#1 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(1779): WC_Payments_API_Client->start_server_connection('http://laviedes...')
+#2 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-account.php(888): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(310): WC_Payments_Account->maybe_handle_onboarding('')
+#4 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#7 /Users/emma1/Local Sites/laviedesplantes/app/public/wp-admin/index.php(10): require_once('/Users/emma1/Lo...')
+#8 {main}
+  thrown dans /Users/emma1/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php à la ligne 187
+
